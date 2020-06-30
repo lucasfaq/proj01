@@ -6,11 +6,11 @@
 
 		<title>Sistema-Consutar</title>
 
-		<!-- css do bootstrap -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- css dos plugins -->
+		<link rel="stylesheet" href="styles/plugins.css">
 		
         <!-- css da pagina de login -->
-		<link rel="stylesheet" href="styles/login.css">
+		<link rel="stylesheet" href="styles/visuais/login.css">
 
 		<!-- icone da aba de login -->
 		<link rel="icon" href="imgs/favicon.png" type="image/x-icon">

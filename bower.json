@@ -6,7 +6,7 @@
     "lucasfaq <lucasfaq@users.noreply.github.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/lucasfaq/Geral",
+  "homepage": "https://github.com/lucasfaq/proj01",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,8 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
-    "components-font-awesome": "^5.13.1"
+    "components-font-awesome": "^5.13.1",
+    "bootstrap-sass": "^3.4.1",
+    "breakpoint-sass": "^2.7.1"
   }
 }
