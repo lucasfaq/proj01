@@ -1,0 +1,75 @@
+body{
+	color: #fff;
+	background-color: #d8d6d6;
+}
+
+.login-form{
+	width:350px;
+	margin: 0 auto;
+	padding: 100px 0 30px;
+
+}
+
+.login-form form{
+    color: #7a7a7a;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    background: #ececec;
+    padding: 30px;
+	position: relative;
+    box-shadow: 2px 2px 0px 0px rgb(0,0,0,0.3);
+}
+
+.login-form .logo{
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	height: 95px;
+	width: 95px;
+    top: -50px;
+}
+
+.login-form .logo img{
+	width: 100%;
+}
+
+.login-form h2{
+    font-size: 22px;
+    margin: 40px 0px 25px;
+}
+
+.form-control{
+    min-height: 40px;
+    background: #fff;
+    box-shadow: none;
+    border-color: #e3e3e3;
+}
+
+.form-control:focus{
+    border-color: #436aac;
+}
+
+.form-control, .btn{
+    border-radius: 10px;
+}
+
+.login-form .btn{
+    font-size: 16px;
+    background: #436aac;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.login-form .btn:hover, .login-form .btn:focus{
+    background: #68c1d2;
+}
+
+.login-form input[type="checkbox"]{
+    margin-top: 2px;
+}
+
+
+

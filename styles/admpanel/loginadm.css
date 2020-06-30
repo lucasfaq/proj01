@@ -1,0 +1,20 @@
+.navbar{
+    background-color: #e8e8e8;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    color:#071e51;
+    font-size: 15px;
+}
+
+.navbar a:hover{
+    color:#244181;
+}
