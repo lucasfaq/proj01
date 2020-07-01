@@ -18,6 +18,7 @@
     "jquery": "^3.5.1",
     "components-font-awesome": "^5.13.1",
     "bootstrap-sass": "^3.4.1",
-    "breakpoint-sass": "^2.7.1"
+    "breakpoint-sass": "^2.7.1",
+    "sass-flex-mixin": "^1.0.3"
   }
 }

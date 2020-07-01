@@ -54,23 +54,37 @@ table {
   border-spacing: 0; }
 
 body {
-  color: #e1e1e1;
-  background-color: #d8d6d6; }
+  color: #d8d6d6;
+  background-color: #e1e1e1; }
   body .login-form {
+    height: 600px;
     width: 350px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 100px 0 30px; }
     body .login-form .btn:hover, body .login-form .btn:focus {
       background: #6BC5D3; }
-    body .login-form .logo img {
-      width: 100%; }
+    body .login-form .logo {
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      width: 95px;
+      height: 95px;
+      top: -50px; }
+      body .login-form .logo img {
+        width: 100%; }
     body .login-form form {
-      color: #d8d6d6;
+      color: #003660;
       border-radius: 10px;
       margin-bottom: 15px;
+      background: #d8d6d6;
       font-size: 13px;
       padding: 30px;
       position: relative;
-      box-shadow: 2px 2px 0px 0px; }
+      box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.1); }
+      body .login-form form a {
+        position: relative;
+        left: 90px; }
     body .login-form h2 {
       font-size: 22px;
       margin: 40px 0px 25px; }

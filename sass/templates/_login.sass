@@ -1,28 +1,42 @@
 body
-    color: $cinza-claro
-    background-color: $cinza-escuro
+    color: $cinza-escuro
+    background-color: $cinza-claro
     .login-form
+        height: 600px
         width: 350px
         margin: 0 auto
+        padding: 100px 0 30px
         .btn:hover, .btn:focus
                 background: $azul-claro
         .logo
+            position: absolute
+            margin: 0 auto
+            left: 0
+            right: 0
+            width: 95px
+            height: 95px
+            top: -50px
             img
                 width: 100%
             
         form
-            color: $cinza-escuro
+            color: $azul-escuro
             border-radius: 10px
             margin-bottom: 15px
+            background: $cinza-escuro
             font-size: 13px
             padding: 30px
             position: relative
-            box-shadow: 2px 2px 0px 0px
+            box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.1)
+            a
+                position: relative
+                left: 90px
         h2
             font-size: 22px
             margin: 40px 0px 25px
         input[type="checkbox"]
             margin-top: 2px
+            
     .form-control
         min-height: 40px
         background: $branco

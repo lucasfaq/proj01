@@ -36,11 +36,11 @@
                     <button class="btn btn-primary btn-lg btn-block" type="submit" name="btn-login">Login</button>
 				</div>
 				<div class="clearfix">
-				    <label class="float-left checkbox-inline">
+				    <label class="checkbox-inline">
 				        <input type="checkbox">
 				        Lembrar-me
 				    </label>
-				    <a href="#" class="float-right">Recuperar Senha</a>
+				    <a href="#">Recuperar Senha</a>
 				</div>
 			</form>
 		</div>
